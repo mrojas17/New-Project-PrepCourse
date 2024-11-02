@@ -3,65 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mi página web</title>
+    <iink rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
     <header>
-        <h1>Este es el título principal de mi página web</h1>
-        
-        <span>HOME</span>
-        <span>NOTICIAS</span>
-        <span>CLIMA</span>
+        <div id="titulos">
+            <h1 class="title" id="principal">Mi página personal</h1>
+            <h2>Mónica Rojas</h2>
+        </div>
     </header>
 
     <main>
-        <img src="noticias.jpg">
-        <section>
-            <h2>Este es el título de una sesión de noticias</h2>
 
-            <article>
-                <h3>Esta es la noticia número 1</h3>
-                <div>
-                    <p>Este será el primer parrafor de una noticia </p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa, dignissimos nemo porro adipisci facere ipsam. 
-                        Enim quae magnam animi culpa sunt, neque tempore adipisci aspernatur facere molestias velit! Mollitia, excepturi!
-                    </p>
+        <article>
+            <h3 class="title">Fullstack Developer</h3>
+            <p>Me llamo Mónica Rojas, soy de Villavicencio, Colombia y me apasiona el desarrollo web</p>
+            <p>Estoy empezando a estudiar en Henry</p>
+        </article>
+            
+
+        <article>
+            <div id="cards-container">
+
+                <div class="cards">
+                    <h4 class="title">HTML</h4>
+                    <img src="logohtml.png" class="logo">
                 </div>
-
-            </article>
-            
-            <hr>
-
-            <article>
-                <h3>Esta es la noticia numero 2</h3>
-                <p>Este es un listado de cosas importante para esta noticia</p>
+                <div class="cards">
+                    <h4 class="title">CSS</h4>
+                    <img src="logocss.png" class="logo">
+                </div>
+                <div class="cards">
+                    <h4 class="title">JAVASCRIPT</h4>
+                    <img src="logojs.png" class="logo">
+                </div>
                 
-                <ol>
-                    <li>Este es el item</li>
-                    <li>Este es el item</li>
-                    <li>Este es el item</li>
-                </ol>
-            </article>
-            
-            <hr>
+            </div>       
+        </article>
 
-            <article>
-                <h3>Esta es la noticia No 3</h3>
-                <p>Esta lista no esta ordenado</p>
-                <ul>
-                    <li>Este es un elemento</li>
-                    <li>Elemento adicional </li>
-                    <li>Este es otro adicional</li>
-                </ul>
-            </article>
-        </section>
     </main>
-
-    <footer>
-        <p>Este es el footer de mi pagina</p> 
-        <a href="contacto.html">Formulario de contacto</a>
-    </footer>
 
 
 
